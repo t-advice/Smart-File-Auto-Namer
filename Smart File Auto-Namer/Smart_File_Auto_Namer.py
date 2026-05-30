@@ -16,6 +16,13 @@ base_filename = f"audio_record_{timestamp}.wav"
 print(f"Generated Secure Filename:{base_filename}")
 print("-" *36)
 
+#4. Simulating saving the file to downloads folder
+downloads_path = r"C:\Users\USER\Downloads"
+full_destination = os.path.join(downloads_path, base_filename)
+
+print("Simulating file creation sequence...")
+print(f"Target Destination: {full_destination}")
+
 
 
 
